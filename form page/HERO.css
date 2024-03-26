@@ -1,0 +1,98 @@
+
+
+body            {font-family: Arial, Helvetica, sans-serif;
+                color:rgb(43, 43, 43) ;
+                background-color: rgb(124, 128, 145);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+            
+                }
+
+img         {
+                border-top-left-radius: 12PX;
+                border-bottom-left-radius: 12PX;    
+}
+
+.container 
+            {
+                display: flex;
+                flex-direction: row;
+                align-items: CE;
+                
+            }
+
+.box       {  background-color: white;
+              display: flex;
+              flex-direction: column;  
+              align-items: center;
+              border-top-right-radius: 12px;
+              border-bottom-right-radius: 12px;
+            }
+
+h1            { padding-top: 16px;
+                padding-bottom: 16px;
+            }
+
+
+.box2       {
+               
+                padding-top: 24px;
+                padding-bottom: 32px;
+                padding-right: 32px;
+                padding-left: 32px;
+                
+            }
+.namebox , .passbox   {   display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            
+            
+.frstname  {display: flex;
+            flex-direction: column; 
+            }
+
+button      {
+   background-color: rgb(59 130 246);
+   color: white;
+    width: 450PX;
+    height: 40PX;
+     border-radius: 9999px;
+    border: none;
+    
+    
+}
+
+button:hover {
+    background-color:blue;
+}
+
+
+
+a:hover  
+                {
+                    color: rgb(101, 159, 235);
+                }
+
+                .solid-line {
+                    width: 100%; 
+                    border-bottom: 1px solid rgb(207, 207, 207); 
+                    margin: 20px 0; 
+                    width: 450px;
+                } 
+
+
+                input[type="text"],
+                input[type="email"],
+                input[type="password"] 
+                
+                {
+                    height: 25px;  
+                    color:rgb(219, 219, 219);
+                    border:2px solid  ; 
+                    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+                }
+                
